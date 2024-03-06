@@ -1,0 +1,46 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg-container {
+  height: 100vh;
+  font-family: Roboto;
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  background-color: #f8fafc;
+  padding: 40px;
+  border-radius: 20px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dropdown-container {
+  display: flex;
+}
+
+.main-heading {
+  color: #323f4b;
+}
+
+.dropdown {
+  padding: 5px;
+  border: 1px solid #cbd2d9;
+}
+
+.paragraph {
+  margin-left: 10px;
+  color: #000000;
+}
+
+.country-name {
+  color: #1e293b;
+  font-size: 22px;
+}
